@@ -8,6 +8,7 @@ initSettings();
 new LlamaIndexServer({
   workflow: workflowFactory,
   uiConfig: {
+    starterQuestions: ["Give me a summary of your document."],
     componentsDir: "components",
     devMode: true,
   },
