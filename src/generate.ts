@@ -37,3 +37,9 @@ async function generateDatasource() {
     await generateDatasource();
   }
 })();
+
+async function main() {
+  let storageContent = await storageContextFromDefaults({
+
+  })
+}
